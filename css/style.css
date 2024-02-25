@@ -1,0 +1,430 @@
+
+
+@import url(https://db.onlinewebfonts.com/c/2a01178a765f83ae2b7764a3cfbe4303?family=AvenirLTPro-Book);
+@import url(https://db.onlinewebfonts.com/c/901497541657a2f24e42848bcf7fad52?family=Avenir+Heavy);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Barra de navegação */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+    padding: 1.3rem;
+    margin: 0 auto;
+    border-bottom: 0.5px solid #dcdcdc;
+}
+
+.pedido {
+    color: #007aff;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.pedido:hover {
+    text-decoration: underline;
+}
+
+/* Main */ 
+
+.conteudo-sessao-one {
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo-conteudo-one {
+    margin-top: 56px;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    font-size: 50px;
+    font-family: "Avenir Heavy";
+}
+
+.subtitulo {
+    font-weight: normal;
+    font-size: 26px;
+    margin-bottom: 24px;
+    font-family: "AvenirLTPro-Book", sans-serif;    
+
+}
+
+.descricao {
+    color: #999999;
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.2;
+    letter-spacing: -0.040em;
+    font-family: "AvenirLTPro-Book", sans-serif;    
+
+}
+
+.personalizar {
+    margin-top: 42px;
+    font-weight: 500;
+    color: #000;
+}
+
+#imagem-produto {
+    margin-top: 20px;
+    max-width: 1000px;
+    width: 80%;
+    opacity: 1;
+}
+
+.conteudo-principal p {
+    color: #999999;
+}
+
+#imagens {
+    margin-bottom: 30px;
+}
+
+#imagens ul {
+    display: flex;
+    justify-content: center;
+}
+
+#imagens li {
+    margin: 1rem;
+    display: flex;
+    cursor: pointer;
+}
+
+#imagens li .color {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+#verde .color {
+    background: linear-gradient(#bdead6, #7ad7ac);
+}
+
+#azul .color {
+    background: linear-gradient(#007aff, #1c62b6);
+}
+
+#cinza .color {
+    background: linear-gradient(#aaa, #666);
+}
+
+#vermelho .color {
+    background: linear-gradient(#ff3b30, #da120d);
+}
+
+
+.footer-sessao {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-sessao span {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.footer-sessao p {
+    margin-top: 5px;
+}
+
+
+/* Sessão 2 */ 
+
+.border {
+    margin-top: 50px;
+    border-top: 0.5px solid #dcdcdc;
+}
+
+.titulo-sessao-dois {
+    margin-top: 72px;
+    font-size: 50px;
+    font-family: "Avenir Heavy";
+}
+
+.subtitulo-sessao-dois {
+    font-weight: normal;
+    font-size: 26px;
+    margin-bottom: 24px;
+    font-family: "AvenirLTPro-Book", sans-serif;    
+
+}
+
+
+.descricao-sessao-dois {
+    color: #999999;
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    line-height: 1.2;
+    letter-spacing: -0.040em;
+    font-size: 20px;
+    font-family: "AvenirLTPro-Book" , sans-serif;
+
+}
+
+/* imgs */
+
+.imagens-container  {
+    margin-top: 170px;
+    position: relative;
+    left: 50px;
+}
+
+.imagens-container figure {
+    position: absolute;
+}
+
+#carteira-img {
+    width: 515px;
+}
+
+#identidade-img {
+    width: 470px;
+}
+
+#dinheiro-img {
+    width: 350px;
+}
+
+.imagens-container figure#identidade {
+    bottom: -45px;
+    left: 0px;
+    z-index: 0; /* Aumentado o z-index */
+}
+
+.imagens-container figure#dinheiro {
+    bottom: -50px;
+    left: 50px;
+    z-index: 1; /* Aumentado o z-index */
+}
+
+.imagens-container figure#carteira {
+    z-index: 2; /* Aumentado o z-index */
+}
+
+
+
+/* imgs 2 */
+
+#img-medida {
+    max-width: 700px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.container-titles {
+    margin-top: px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* sessão 3  */
+
+#img-slim {
+    width: 375px;
+    margin: 62px auto;
+}
+
+
+.sessao-banner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.avaliacao {
+    margin: 45px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stars {
+    width: 30px;
+}
+
+.avaliacao span {
+    font-weight: 800;
+}
+
+.descricao-avaliacao {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+.titulo-sessao-avaliacao {
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: "Avenir Heavy";
+}
+
+.subtitulo-sessao-avaliacao {
+    font-weight: normal;
+    font-size: 26px;
+    margin-bottom: 24px;
+    font-family: "AvenirLTPro-Book", sans-serif;    
+
+}
+
+
+.descricao-sessao-avaliacao {
+    color: #999999;
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    line-height: 1.2;
+    letter-spacing: -0.040em;
+    font-size: 20px;
+    font-family: "AvenirLTPro-Book" , sans-serif;
+
+}
+
+.avaliacao-clientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-cliente {
+    border-radius: 50%;
+    width: 40px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+.cliente {
+    display: flex;
+    flex-direction: column;
+}
+
+.avaliacao-clientes p {
+    text-align: center;
+}
+
+.avaliacao-clientes h4 {
+    font-weight: normal;
+}
+
+.destaque {
+    font-weight: bold;
+}
+
+
+.descricao-compra {
+    font-family: "AvenirLTPro-Book", sans-serif;    
+    font-size: 20px;
+}
+
+.destaque-compra {
+    color: rgb(47, 246, 47);
+    font-weight: bold;
+}
+
+button {
+    color: #fff;
+    width: 20%;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    position: relative;
+    border-radius: 20px;
+    background-color: #000;
+    font-weight: 800;
+}
+
+.conteudo-sessao-footer {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.conteudo-sessao-footer a {
+    color: #000;
+}
+
+.rede-sociais {
+    display: flex;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.links-footer {
+    display: flex;
+    gap: 32px;
+}
+
+.img-redes {
+    width: 24px;
+}
+
+#img-banner {
+    width: 100%;
+ 
+}
+
+
+@media (max-width: 600px) {
+    #img-slim {
+      width: 100%;
+    }
+
+    .sessao-banner {
+        display: block;
+    }
+  }
+
+  
+@media (max-width: 900px) {
+    button {
+        width: 200px;
+    }
+  }
