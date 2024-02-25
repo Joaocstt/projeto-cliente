@@ -15,6 +15,6 @@ buttons.forEach((btn) => {
         button.querySelector('.color').classList.add('selected');
 
         imagens.classList.add('mudanca')
-        imagens.setAttribute("src", `carteira_${id}.jpg`)
+        imagens.setAttribute("src", `assets/carteira_${id}.jpg`)
     })
 })
