@@ -412,6 +412,19 @@ button {
 }
 
 
+@media (max-width: 400px) {
+    .avaliacao {
+        padding: 20px;
+    }
+    .sessao-banner {
+        padding: 20px;
+    }
+    .avaliacao-clientes {
+        padding: 20px;
+    }
+}
+
+
 @media (max-width: 600px) {
     #img-slim {
       width: 100%;
@@ -421,7 +434,7 @@ button {
         display: block;
     }
   }
-
+  
   
 @media (max-width: 900px) {
     button {
