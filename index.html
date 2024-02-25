@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" defer></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
     <title>Título do site</title>
 </head>
 <body>
@@ -173,5 +172,30 @@
     <script>
       AOS.init();
     </script>
+
+<script>
+    // Função para bloquear o clique do botão direito do mouse
+    function bloquearBotaoDireito(event) {
+        event.preventDefault(); // Impede a ação padrão do clique do botão direito
+    }
+
+    function bloquearConsole(event) {
+        if (event.keyCode == 123 || (event.ctrlKey && event.shiftKey && event.keyCode == 73)) {
+            event.preventDefault(); // Impede a abertura do console quando pressionado F12 ou Ctrl+Shift+I
+        }
+    }
+    
+
+    function bloquearConsoleCtrl(event) {
+        if (event.keyCode == 17 || (event.ctrlKey && event.shiftKey && event.keyCode == 73)) {
+            event.preventDefault(); // Impede a abertura do console quando pressionado F12 ou Ctrl+Shift+I
+        }
+    }
+    // Adiciona um ouvinte de evento para o clique do botão direito em todo o documento
+    document.addEventListener('contextmenu', bloquearBotaoDireito);
+    document.addEventListener('keydown', bloquearConsole);
+    document.addEventListener('keydown', bloquearConsoleCtrl);
+
+</script>
 </body>
 </html>
